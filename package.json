@@ -1,0 +1,43 @@
+{
+  "name": "opencode-quote-reply",
+  "version": "0.1.0",
+  "description": "Quote selected OpenCode 2 transcript text into the prompt with a keyboard shortcut.",
+  "type": "module",
+  "author": "David Roman",
+  "license": "MIT",
+  "homepage": "https://github.com/davdroman/opencode-quote-reply#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davdroman/opencode-quote-reply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davdroman/opencode-quote-reply/issues"
+  },
+  "exports": {
+    "./tui": "./tui.js"
+  },
+  "files": [
+    "tui.js"
+  ],
+  "keywords": [
+    "blockquote",
+    "cli",
+    "keybind",
+    "keyboard-shortcut",
+    "opencode",
+    "opencode-plugin",
+    "prompt",
+    "quote",
+    "quote-reply",
+    "reply",
+    "selection",
+    "transcript",
+    "tui"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.2.3"
+  }
+}
